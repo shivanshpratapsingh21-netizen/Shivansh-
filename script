@@ -1,0 +1,359 @@
+/* =========================================
+MOBILE NAVIGATION
+========================================= */
+
+const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+
+if (menuToggle && navMenu) {
+
+menuToggle.addEventListener("click", () => {
+
+const isOpen = navMenu.classList.toggle("active");
+
+menuToggle.setAttribute(
+"aria-expanded",
+isOpen
+);
+
+});
+
+
+// Close menu after clicking a navigation link
+
+navMenu.querySelectorAll("a").forEach((link) => {
+
+link.addEventListener("click", () => {
+
+navMenu.classList.remove("active");
+
+menuToggle.setAttribute(
+"aria-expanded",
+"false"
+);
+
+});
+
+});
+
+}
+
+
+/* =========================================
+CURRENT YEAR
+========================================= */
+
+const currentYear = document.getElementById("currentYear");
+
+if (currentYear) {
+
+currentYear.textContent =
+new Date().getFullYear();
+
+}
+
+
+/* =========================================
+SCROLL REVEAL
+========================================= */
+
+const revealElements = document.querySelectorAll(
+".section-heading, .project-card, .timeline-item, .skill-card, .achievement"
+);
+
+const observer = new IntersectionObserver(
+(entries, observerInstance) => {
+
+entries.forEach((entry) => {
+
+if (entry.isIntersecting) {
+
+entry.target.classList.add("reveal");
+
+observerInstance.unobserve(
+entry.target
+);
+
+}
+
+});
+
+},
+{
+threshold: 0.12
+}
+);
+
+
+revealElements.forEach((element) => {
+
+observer.observe(element);
+
+});
+
+
+/* =========================================
+PROJECT DATA
+========================================= */
+
+const projects = {
+
+arc: {
+
+category: "Academic Group Project",
+
+title:
+"ARC — Developing a New Age Sports Brand",
+
+description:
+"Conducted secondary research on sports brands to identify gaps and developed a strategic brand concept with visual identity, collaterals and campaign design.",
+
+tags: [
+"Secondary Research",
+"Brand Strategy",
+"Visual Identity",
+"Collaterals",
+"Campaign Design"
+]
+
+},
+
+
+utdb: {
+
+category:
+"Public Art & Cultural Research",
+
+title:
+"Danya Bazaar, Almora",
+
+description:
+"A public art project developed for a UTDB reconnaissance visit. The project involved village mapping and cultural research to interpret local traditions, rituals and visual motifs, translating insights into visual narratives through graphics and sketches.",
+
+tags: [
+"Village Mapping",
+"Cultural Research",
+"Visual Research",
+"Illustration",
+"Tourism"
+]
+
+}
+
+};
+
+
+/* =========================================
+PROJECT MODAL
+========================================= */
+
+const modal = document.getElementById("projectModal");
+const modalClose = document.getElementById("modalClose");
+const modalOverlay = document.getElementById("modalOverlay");
+
+const modalCategory =
+document.getElementById("modalCategory");
+
+const modalTitle =
+document.getElementById("modalTitle");
+
+const modalDescription =
+document.getElementById("modalDescription");
+
+const modalTags =
+document.getElementById("modalTags");
+
+
+const projectButtons =
+document.querySelectorAll(".project-trigger");
+
+
+function openProject(projectId) {
+
+const project = projects[projectId];
+
+if (!project || !modal) {
+return;
+}
+
+
+modalCategory.textContent =
+project.category;
+
+modalTitle.textContent =
+project.title;
+
+modalDescription.textContent =
+project.description;
+
+
+modalTags.innerHTML = "";
+
+
+project.tags.forEach((tag) => {
+
+const tagElement =
+document.createElement("span");
+
+tagElement.textContent = tag;
+
+modalTags.appendChild(
+tagElement
+);
+
+});
+
+
+modal.classList.add("active");
+
+modal.setAttribute(
+"aria-hidden",
+"false"
+);
+
+document.body.style.overflow =
+"hidden";
+
+}
+
+
+function closeProject() {
+
+if (!modal) {
+return;
+}
+
+modal.classList.remove("active");
+
+modal.setAttribute(
+"aria-hidden",
+"true"
+);
+
+document.body.style.overflow =
+"";
+
+}
+
+
+projectButtons.forEach((button) => {
+
+button.addEventListener("click", () => {
+
+const projectId =
+button.dataset.project;
+
+openProject(projectId);
+
+});
+
+});
+
+
+if (modalClose) {
+
+modalClose.addEventListener(
+"click",
+closeProject
+);
+
+}
+
+
+if (modalOverlay) {
+
+modalOverlay.addEventListener(
+"click",
+closeProject
+);
+
+}
+
+
+/* =========================================
+ESCAPE KEY
+========================================= */
+
+document.addEventListener(
+"keydown",
+(event) => {
+
+if (
+event.key === "Escape" &&
+modal &&
+modal.classList.contains("active")
+) {
+
+closeProject();
+
+}
+
+}
+);
+
+
+/* =========================================
+ACTIVE NAVIGATION
+========================================= */
+
+const sections =
+document.querySelectorAll(
+"main section[id]"
+);
+
+const navigationLinks =
+document.querySelectorAll(
+".nav-menu a"
+);
+
+
+const sectionObserver =
+new IntersectionObserver(
+(entries) => {
+
+entries.forEach((entry) => {
+
+if (entry.isIntersecting) {
+
+const currentId =
+entry.target.id;
+
+navigationLinks.forEach(
+(link) => {
+
+link.classList.remove(
+"active"
+);
+
+if (
+link.getAttribute(
+"href"
+) === `#${currentId}`
+) {
+
+link.classList.add(
+"active"
+);
+
+}
+
+}
+);
+
+}
+
+});
+
+},
+{
+rootMargin:
+"-30% 0px -60% 0px"
+}
+);
+
+
+sections.forEach((section) => {
+
+sectionObserver.observe(section);
+
+});

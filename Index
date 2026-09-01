@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+name="description"
+content="Portfolio of Shivansh Pratap Singh — Spatial Experience Designer, Design Researcher and Visual Thinker."
+>
+
+<meta
+name="author"
+content="Shivansh Pratap Singh"
+>
+
+<title>Shivansh Pratap Singh — Designer & Visual Thinker</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+rel="stylesheet"
+>
+</head>
+
+<body>
+
+<!-- =========================================
+NAVIGATION
+========================================== -->
+
+<header class="site-header">
+
+<nav class="navbar container">
+
+<a href="#home" class="logo">
+Shivansh<span>.</span>
+</a>
+
+<button
+class="menu-toggle"
+id="menuToggle"
+aria-label="Open navigation menu"
+aria-expanded="false"
+>
+<span></span>
+<span></span>
+</button>
+
+<div class="nav-menu" id="navMenu">
+
+<a href="#about">About</a>
+<a href="#work">Work</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<!-- =========================================
+HERO
+========================================== -->
+
+<section id="home" class="hero section">
+
+<div class="container hero-grid">
+
+<div class="hero-content">
+
+<p class="eyebrow">
+Designer / Researcher / Visual Thinker
+</p>
+
+<h1>
+Designing ideas
+<span>that people can experience.</span>
+</h1>
+
+<p class="hero-description">
+Spatial Experience Designer and Master’s candidate
+at NIFT Gandhinagar, with a background in Fine Arts.
+I explore how people interact with environments,
+visuals and stories.
+</p>
+
+<div class="hero-actions">
+
+<a href="#work" class="button button-primary">
+Explore my work
+</a>
+
+<a href="#contact" class="button button-secondary">
+Get in touch
+</a>
+
+</div>
+
+</div>
+
+
+<div class="hero-visual">
+
+<div class="visual-card">
+
+<div class="visual-number">
+01
+</div>
+
+<div class="visual-text">
+<span>Current focus</span>
+<strong>
+Spatial<br>
+Experience
+</strong>
+</div>
+
+<div class="visual-circle"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+MARQUEE
+========================================== -->
+
+<div class="marquee">
+
+<div class="marquee-track">
+
+<span>Brand Identity</span>
+<span>Visual Storytelling</span>
+<span>Spatial Design</span>
+<span>Design Research</span>
+<span>Illustration</span>
+<span>UI / UX</span>
+
+<span>Brand Identity</span>
+<span>Visual Storytelling</span>
+<span>Spatial Design</span>
+<span>Design Research</span>
+<span>Illustration</span>
+<span>UI / UX</span>
+
+</div>
+
+</div>
+
+
+<!-- =========================================
+ABOUT
+========================================== -->
+
+<section id="about" class="section section-light">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="section-index">01</span>
+
+<div>
+<p class="eyebrow">About me</p>
+
+<h2>
+Curious about people,
+places & visual stories.
+</h2>
+</div>
+
+</div>
+
+
+<div class="about-grid">
+
+<div class="about-intro">
+
+<p class="large-text">
+I am Shivansh Pratap Singh — a visually driven
+designer interested in understanding how people
+experience their surroundings.
+</p>
+
+</div>
+
+
+<div class="about-copy">
+
+<p>
+My design practice sits between visual
+communication, research and spatial experience.
+I enjoy moving from observation and research
+toward concepts, systems and visual narratives.
+</p>
+
+<p>
+With a background in Fine Arts and current
+studies in Design, I bring an exploratory and
+concept-led approach to projects across digital,
+print and spatial platforms.
+</p>
+
+<p>
+I am particularly interested in colour,
+illustration, visual storytelling and
+collaborative design solutions.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+SELECTED WORK
+========================================== -->
+
+<section id="work" class="section section-dark">
+
+<div class="container">
+
+<div class="section-heading section-heading-dark">
+
+<span class="section-index">02</span>
+
+<div>
+<p class="eyebrow">Selected work</p>
+
+<h2>
+Research → Concept → Visual System
+</h2>
+</div>
+
+</div>
+
+
+<div class="project-list">
+
+
+<!-- PROJECT 01 -->
+
+<article class="project-card">
+
+<div class="project-image project-image-one">
+
+<div class="project-image-content">
+ARC
+</div>
+
+</div>
+
+<div class="project-info">
+
+<p class="project-number">
+01 / Academic Group Project
+</p>
+
+<h3>
+ARC — Developing a New Age Sports Brand
+</h3>
+
+<p>
+A strategic brand exploration developed
+through secondary research into sports
+brands, identifying opportunities and
+translating insights into a brand concept,
+visual identity, collaterals and campaign.
+</p>
+
+<div class="tag-list">
+
+<span>Research</span>
+<span>Brand Strategy</span>
+<span>Identity</span>
+<span>Campaign</span>
+
+</div>
+
+<button
+class="text-button project-trigger"
+data-project="arc"
+>
+View project →
+</button>
+
+</div>
+
+</article>
+
+
+<!-- PROJECT 02 -->
+
+<article class="project-card project-card-reverse">
+
+<div class="project-image project-image-two">
+
+<div class="project-image-content">
+UTDB
+</div>
+
+</div>
+
+<div class="project-info">
+
+<p class="project-number">
+02 / Public Art & Cultural Research
+</p>
+
+<h3>
+Danya Bazaar, Almora
+</h3>
+
+<p>
+A public art and cultural research project
+developed during a reconnaissance visit.
+The work explored local traditions, rituals
+and visual motifs and translated them into
+visual narratives.
+</p>
+
+<div class="tag-list">
+
+<span>Mapping</span>
+<span>Research</span>
+<span>Culture</span>
+<span>Visual Narrative</span>
+
+</div>
+
+<button
+class="text-button project-trigger"
+data-project="utdb"
+>
+View project →
+</button>
+
+</div>
+
+</article>
+
+
+<!-- PROJECT 03 -->
+
+<article class="project-card">
+
+<div class="project-image project-image-three">
+
+<div class="project-image-content">
+LIFE<br>&amp;<br>DEATH
+</div>
+
+</div>
+
+<div class="project-info">
+
+<p class="project-number">
+03 / Fine Arts
+</p>
+
+<h3>
+Life and Death
+</h3>
+
+<p>
+Painting exhibited at the Annual Art
+Exhibition at Moinuddin Ahmad Art Gallery
+in March 2024.
+</p>
+
+<div class="tag-list">
+
+<span>Painting</span>
+<span>Fine Arts</span>
+<span>Exhibition</span>
+
+</div>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+EDUCATION
+========================================== -->
+
+<section id="education" class="section section-light">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="section-index">03</span>
+
+<div>
+<p class="eyebrow">Education</p>
+
+<h2>
+Learning through design
+& visual practice.
+</h2>
+</div>
+
+</div>
+
+
+<div class="timeline">
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+2025 — Present
+</div>
+
+<div class="timeline-content">
+
+<span class="timeline-type">
+Master of Design
+</span>
+
+<h3>
+National Institute of Fashion Technology
+</h3>
+
+<p>
+Gandhinagar, Gujarat
+</p>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item">
+
+<div class="timeline-date">
+2020 — 2024
+</div>
+
+<div class="timeline-content">
+
+<span class="timeline-type">
+Bachelor in Fine Arts
+</span>
+
+<h3>
+Aligarh Muslim University
+</h3>
+
+<p>
+Aligarh, Uttar Pradesh
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+SKILLS
+========================================== -->
+
+<section id="skills" class="section section-accent">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="section-index">04</span>
+
+<div>
+<p class="eyebrow">Capabilities</p>
+
+<h2>
+Tools are important.
+Thinking comes first.
+</h2>
+</div>
+
+</div>
+
+
+<div class="skills-grid">
+
+
+<div class="skill-card">
+
+<span class="skill-number">
+01
+</span>
+
+<h3>
+Design
+</h3>
+
+<ul>
+<li>Brand Identity Design</li>
+<li>Packaging Design</li>
+<li>Editorial & Layout</li>
+<li>Campaign Design</li>
+<li>UI / UX</li>
+<li>Visual Storytelling</li>
+<li>Event & Spatial Branding</li>
+</ul>
+
+</div>
+
+
+<div class="skill-card">
+
+<span class="skill-number">
+02
+</span>
+
+<h3>
+Creative Tools
+</h3>
+
+<ul>
+<li>Adobe Illustrator</li>
+<li>Adobe Photoshop</li>
+<li>Adobe InDesign</li>
+<li>Adobe Premiere Pro</li>
+<li>Figma</li>
+<li>SketchUp</li>
+<li>Procreate</li>
+</ul>
+
+</div>
+
+
+<div class="skill-card">
+
+<span class="skill-number">
+03
+</span>
+
+<h3>
+Data & Analytics
+</h3>
+
+<ul>
+<li>Microsoft Excel</li>
+<li>Power BI</li>
+<li>Jamovi</li>
+<li>SPSS</li>
+<li>Orange Software</li>
+</ul>
+
+</div>
+
+
+<div class="skill-card">
+
+<span class="skill-number">
+04
+</span>
+
+<h3>
+Soft Skills
+</h3>
+
+<ul>
+<li>Creative Thinking</li>
+<li>Conceptual Thinking</li>
+<li>System Thinking</li>
+<li>Problem Solving</li>
+<li>Collaboration</li>
+<li>Visual Storytelling</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+ACHIEVEMENTS
+========================================== -->
+
+<section id="achievements" class="section section-light">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="section-index">05</span>
+
+<div>
+<p class="eyebrow">Recognition</p>
+
+<h2>
+Milestones along the way.
+</h2>
+</div>
+
+</div>
+
+
+<div class="achievement-list">
+
+
+<article class="achievement">
+
+<span class="achievement-year">
+2025
+</span>
+
+<div>
+<h3>
+ESG Workshop — IIM Ahmedabad
+</h3>
+
+<p>
+Participated in the ESG Workshop at
+IIM Ahmedabad.
+</p>
+</div>
+
+</article>
+
+
+<article class="achievement">
+
+<span class="achievement-year">
+2020—24
+</span>
+
+<div>
+<h3>
+Top Performing Student
+</h3>
+
+<p>
+Recognised as a top performing student
+in the Department of Fine Arts at
+Aligarh Muslim University.
+</p>
+</div>
+
+</article>
+
+
+<article class="achievement">
+
+<span class="achievement-year">
+2020
+</span>
+
+<div>
+<h3>
+State Level — Second Prize
+</h3>
+
+<p>
+Awarded second prize at the state level
+in a traditional art competition organised
+by MSME Development Institute, Ministry of
+Micro, Small & Medium Enterprises,
+Government of India.
+</p>
+</div>
+
+</article>
+
+
+<article class="achievement">
+
+<span class="achievement-year">
+2024
+</span>
+
+<div>
+<h3>
+Annual Art Exhibition
+</h3>
+
+<p>
+Exhibited the painting “Life and Death”
+at Moinuddin Ahmad Art Gallery.
+</p>
+</div>
+
+</article>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+INTERESTS
+========================================== -->
+
+<section class="interests section">
+
+<div class="container">
+
+<div class="interests-inner">
+
+<p class="eyebrow">
+Beyond design
+</p>
+
+<h2>
+Reading. Music. Football.
+Painting. Cooking.
+</h2>
+
+<div class="interest-tags">
+
+<span>Reading</span>
+<span>Music</span>
+<span>Football</span>
+<span>Painting</span>
+<span>Casio</span>
+<span>Cooking</span>
+<span>Baking</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================================
+CONTACT
+========================================== -->
+
+<section id="contact" class="contact section">
+
+<div class="container">
+
+<div class="contact-grid">
+
+<div>
+
+<p class="eyebrow">
+Let's work together
+</p>
+
+<h2>
+Have an idea?
+Let's make it visual.
+</h2>
+
+</div>
+
+
+<div class="contact-details">
+
+<p>
+I am open to conversations around design,
+research, visual communication and
+collaborative projects.
+</p>
+
+
+<a
+href="mailto:shivanshpratapsingh21@gmail.com"
+class="contact-link"
+>
+shivanshpratapsingh21@gmail.com
+</a>
+
+
+<a
+href="tel:+919027205572"
+class="contact-link"
+>
++91 9027205572
+</a>
+
+
+<div class="social-links">
+
+<a
+href="#"
+target="_blank"
+rel="noopener noreferrer"
+>
+Behance ↗
+</a>
+
+<a
+href="#"
+target="_blank"
+rel="noopener noreferrer"
+>
+Instagram ↗
+</a>
+
+<a
+href="#"
+target="_blank"
+rel="noopener noreferrer"
+>
+LinkedIn ↗
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================
+FOOTER
+========================================== -->
+
+<footer class="footer">
+
+<div class="container footer-inner">
+
+<p>
+© <span id="currentYear"></span>
+Shivansh Pratap Singh
+</p>
+
+<a href="#home">
+Back to top ↑
+</a>
+
+</div>
+
+</footer>
+
+
+<!-- =========================================
+PROJECT MODAL
+========================================== -->
+
+<div
+class="modal"
+id="projectModal"
+aria-hidden="true"
+>
+
+<div class="modal-overlay" id="modalOverlay"></div>
+
+<div class="modal-content">
+
+<button
+class="modal-close"
+id="modalClose"
+aria-label="Close project"
+>
+×
+</button>
+
+<p class="eyebrow" id="modalCategory">
+Project
+</p>
+
+<h2 id="modalTitle">
+Project title
+</h2>
+
+<p id="modalDescription">
+Project description.
+</p>
+
+<div class="modal-tags" id="modalTags"></div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
